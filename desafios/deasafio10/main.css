@@ -1,0 +1,152 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+@font-face {
+    font-family:"Android" ;
+    src: url("pacote-projeto-d010/fontes/idroid.otf") format("opentype");
+    font-weight: normal;
+}
+
+
+:root{
+    --cor1:#5378B0;
+    --cor2:#354D70;
+    --cor3:#71A3F0;
+    --cor4:#82b1f8e8;
+    --cor5:#6592D6;
+
+    --font-android: 'Android', cursive;
+    --font-destaque: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: var(--cor4);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 10%;
+    max-width: 100%;
+    min-width: 320px;
+    background-image: linear-gradient(to top, var(--cor1), var(--cor5));
+}
+h1 #pricipalPagina{
+    font-family: var(--font-destaque);
+    margin: 25px;
+}
+
+header p{
+    padding: 30px;
+}
+
+nav{
+    padding: 10px;
+    background-color: var(--cor1);
+    text-align: left;
+}
+
+a:hover{
+    background-color: rgba(132, 215, 248, 0.336);
+}
+nav a{
+    font-size: 90%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+main {
+    margin: auto;
+    background-color: white;
+    max-width: 900px;
+    min-width: 320px;
+}
+#primeira{ 
+    padding: 15px;
+}
+
+#tituloConteudo{
+    color: var(--cor2);
+    font-size: 30px;
+    font-family: var(--font-android);
+    text-align: center;
+    padding: 20px;
+}
+section p{
+    margin: 10px;
+    text-indent: 30px;
+    text-align: justify;
+    
+}
+section h2{
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: var(--font-android);
+    margin: 10px;
+    background-image: linear-gradient(to right, var(--cor4), rgba(226, 247, 226, 0.514));
+    color: var(--cor2);
+}
+
+section img{
+    width: 100%;
+}
+
+#bugdroid{
+    height: 300px;
+
+}
+
+#segunda{
+    margin: auto;
+    padding: 15px 25px;
+    height: 400px;
+    background: var(--cor1);
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#saibaMais{
+    padding: 10px;
+    
+}
+
+article{
+    background-color: var(--cor4);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.178);
+    border-radius: 10px;
+}
+#tituloExtra{
+    font-size: 20px;
+    border-radius: 10px 10px 0 0 ;
+    color: white;
+    background-color: var(--cor5);
+    padding: 10px;
+}
+ul {
+list-style-position: inside;
+    list-style-type: '\2714\00A0';
+    columns: 2;
+}
+
+article > p{
+    text-indent: 20px;
+    padding:10px ;
+}
+
